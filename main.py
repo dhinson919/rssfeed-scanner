@@ -108,7 +108,7 @@ def fetch_mesh_descriptor(descriptor_label):
 
 def is_mesh_disease(mesh_descriptor):
     """
-    Queries the NIGH MeSH RDF service to test of the provided MeSH descriptor represents a known disease.
+    Queries the NIH MeSH RDF service to test if the provided MeSH descriptor represents a known disease.
     :param mesh_descriptor: MeSH Descriptor of a speculative disease
     :return: True if the descriptor represents a known disease
     """
